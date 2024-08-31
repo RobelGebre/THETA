@@ -6,7 +6,7 @@
 
 When using code to generate THETA please include a reference to the paper:
 
-*Currently under review.*
+*https://jnm.snmjournals.org/content/early/2024/07/25/jnumed.123.267273 *
 
 ## Usage
 
