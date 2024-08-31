@@ -6,7 +6,7 @@
 
 When using code to generate THETA please include a reference to the paper:
 
-*https://jnm.snmjournals.org/content/early/2024/07/25/jnumed.123.267273 *
+*Gebre RK, Advancing Tau-PET quantification in Alzheimer's disease with machine learning: introducing THETA, a novel tau summary measure. https://jnm.snmjournals.org/content/early/2024/07/25/jnumed.123.267273 *
 
 ## Usage
 
