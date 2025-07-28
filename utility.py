@@ -89,7 +89,7 @@ def calculate_THETA_scores(regional_THETAindices_iqr,_shaps):
     Main steps:
     1. Calculates the sum across all regions for the original SHAP values (`_shaps`).
     2. Calculates the sum across all regions for the regional THETA indices (`regional_THETAindices_iqr`)
-    3. Takes the absolute values of both sums and adds them together to arrive at the final THETA score.
+    3. Takes the absolute values of both sums and adds them together to arrive at the final THETA score. (optional: context dependent)
 
     Returns:
         * THETA: An array or Series of THETA scores.
@@ -98,7 +98,7 @@ def calculate_THETA_scores(regional_THETAindices_iqr,_shaps):
 
     sum_B = np.sum(regional_THETAindices_iqr.reset_index(drop=True), axis=1)
 
-    THETA = np.abs(sum_A.values) + np.abs(sum_B.values) 
+    THETA = sum_A.values + sum_B.values 
 
     return THETA
 
